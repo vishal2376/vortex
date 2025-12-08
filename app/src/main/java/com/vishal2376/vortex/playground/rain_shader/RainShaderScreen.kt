@@ -1,4 +1,4 @@
-package com.vishal2376.vortex.rain_shader
+package com.vishal2376.vortex.playground.rain_shader
 
 
 import android.graphics.RenderEffect

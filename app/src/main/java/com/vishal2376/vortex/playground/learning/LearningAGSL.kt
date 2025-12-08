@@ -1,4 +1,4 @@
-package com.vishal2376.vortex.day0
+package com.vishal2376.vortex.playground.learning
 
 import android.graphics.RuntimeShader
 import android.os.Build

@@ -1,4 +1,4 @@
-package com.vishal2376.vortex.music_visualizer
+package com.vishal2376.vortex.playground.music_visualizer
 
 
 import android.graphics.RuntimeShader

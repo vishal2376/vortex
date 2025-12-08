@@ -6,13 +6,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.annotation.RequiresApi
-import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.ui.Alignment
-import androidx.compose.ui.Modifier
-import com.vishal2376.vortex.music_visualizer.MusicVisualizerScreen
+import com.vishal2376.vortex.core.presentation.navigation.AppNavigation
 import com.vishal2376.vortex.ui.theme.VortexTheme
 
 class MainActivity : ComponentActivity() {
@@ -21,17 +15,8 @@ class MainActivity : ComponentActivity() {
 		super.onCreate(savedInstanceState)
 		enableEdgeToEdge()
 		setContent {
-			VortexTheme {
-				Box(
-					modifier = Modifier
-						.fillMaxSize()
-						.background(MaterialTheme.colorScheme.background),
-					contentAlignment = Alignment.Center
-				) {
-//					LearningAGSL()
-//					RainyGlassEffectScreen()
-					MusicVisualizerScreen()
-				}
+			VortexTheme(darkTheme = true, dynamicColor = false) {
+				AppNavigation()
 			}
 		}
 	}
