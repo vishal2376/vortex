@@ -12,7 +12,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import com.vishal2376.vortex.rain_shader.RainyGlassEffectScreen
+import com.vishal2376.vortex.music_visualizer.MusicVisualizerScreen
 import com.vishal2376.vortex.ui.theme.VortexTheme
 
 class MainActivity : ComponentActivity() {
@@ -28,7 +28,9 @@ class MainActivity : ComponentActivity() {
 						.background(MaterialTheme.colorScheme.background),
 					contentAlignment = Alignment.Center
 				) {
-					RainyGlassEffectScreen()
+//					LearningAGSL()
+//					RainyGlassEffectScreen()
+					MusicVisualizerScreen()
 				}
 			}
 		}
