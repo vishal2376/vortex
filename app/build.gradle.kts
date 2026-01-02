@@ -12,7 +12,7 @@ android {
 
 	defaultConfig {
 		applicationId = "com.vishal2376.vortex"
-		minSdk = 26
+		minSdk = 33
 		targetSdk = 36
 		versionCode = 1
 		versionName = "1.0"
