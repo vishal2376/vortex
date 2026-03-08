@@ -1,7 +1,9 @@
 package com.vishal2376.vortex.playground
 
 import com.vishal2376.vortex.core.presentation.app.VortexDemo
+import com.vishal2376.vortex.playground.cosmic_fluid.CosmicFluidDemo
 import com.vishal2376.vortex.playground.learning.LearningShadersDemo
+import com.vishal2376.vortex.playground.learning_2.Learning2Demo
 import com.vishal2376.vortex.playground.mask_reveal.MaskRevealDemo
 import com.vishal2376.vortex.playground.music_visualizer.MusicVisualizerDemo
 import com.vishal2376.vortex.playground.rain_shader.RainShaderDemo
@@ -14,5 +16,7 @@ object VortexRegistry {
 		MusicVisualizerDemo,
 		WarpShaderDemo,
 		MaskRevealDemo,
+		Learning2Demo,
+		CosmicFluidDemo,
 	)
 }
